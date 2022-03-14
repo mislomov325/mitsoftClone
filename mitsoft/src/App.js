@@ -10,15 +10,15 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        {/* <BrowserRouter>
+        <BrowserRouter>
           <Routes>
             <Route element={<About />} exact path="/about" />
             <Route element={<Home />} exact path="/" />
             <Route element={<Enter />} exact path="/enter" />
             <Route element={<SingUp />} exact path="/singup" />
           </Routes>
-        </BrowserRouter> */}
-        <Prosta/>
+        </BrowserRouter>
+        {/* <Prosta/> */}
         {/* <Online/> */}
       </div>
     );
