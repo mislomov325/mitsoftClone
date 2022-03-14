@@ -28,8 +28,8 @@
   }
 }
 
-$card-height-large-screen: 20rem;
-$card-height-mobile: 12rem;
+/* 20rem: 20rem; */
+/* 12rem: 12rem; */
 
 * {
   box-sizing: border-box;
@@ -38,9 +38,9 @@ $card-height-mobile: 12rem;
   font-family: "Open Sans";
 }
 
-body {
+/* body {
   background-color: #555;
-}
+} */
 
 .content-wrapper {
   margin: 0 auto;
@@ -55,9 +55,9 @@ body {
   border: 0px solid aqua;
   margin: 0.5rem;
   position: relative;
-  height: $card-height-mobile;
+  height: 12rem;
   @mixin atLarge {
-    height: $card-height-large-screen;
+    height: 20rem;
   }
   overflow: hidden;
   border-radius: 0.5rem;
@@ -124,7 +124,7 @@ body {
   }
   @mixin atLarge {
     &:hover &__details-wrapper {
-      max-height: $card-height-large-screen;
+      max-height: 20rem;
       opacity: 1;
     }
     &:hover &__text-wrapper {
