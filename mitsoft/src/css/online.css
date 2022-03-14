@@ -1,0 +1,10 @@
+/* .slick-slider  */
+/* .center  */
+.slick-initialized
+{
+   height: 600px !important;
+}
+.slick-center,
+.slick-current{
+   transform: scale(1.2, 1.2) !important;
+}

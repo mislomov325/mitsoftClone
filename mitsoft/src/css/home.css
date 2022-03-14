@@ -1,0 +1,92 @@
+.video {
+  margin-top: 20px;
+  width: 100%;
+  /* height: 96vh; */
+}
+.sheetOne {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sheetOne p {
+  color: #009fe3;
+  font-size: 32px;
+  font-weight: 400px;
+}
+.sheetOne img {
+  width: 35%;
+}
+.lineLeft {
+  transform: rotate(180deg);
+}
+.lineRight {
+  margin-top: 10px;
+}
+.textOne {
+  font-size: 24px;
+  color: var(--main-desc);
+  text-transform: uppercase;
+  width: 1200px;
+  max-width: 90vw;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 400;
+}
+.item {
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-image: url("https://mitsoft.uz/svg/English.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+}
+.item:after {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.644));
+  z-index: 2;
+}
+.infoCard {
+  background-color: #353534;
+  border-radius: 20px;
+  color: white;
+  /* height: 30px; */
+  width: 100%;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 0px;
+}
+.infoCard p {
+  display: none;
+  transition: 0.3s;
+}
+.infocard:hover p {
+  display: block;
+}
+.infoCard:hover {
+  height: 25opx;
+}
+.infoCard button {
+  float: right;
+  margin-right: 10px;
+}
+video::-webkit-media-controls-play-button {
+  display: none;
+}
+video::-webkit-media-controls-mute-button {
+  display: none;
+}
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+video::-webkit-media-controls-current-time-display {
+  display: none;
+}
+video::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
