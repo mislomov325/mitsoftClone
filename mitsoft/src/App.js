@@ -18,8 +18,8 @@ export default class App extends Component {
             <Route element={<SingUp />} exact path="/singup" />
           </Routes>
         </BrowserRouter> */}
-        {/* <Prosta/> */}
-        <Online/>
+        <Prosta/>
+        {/* <Online/> */}
       </div>
     );
   }

@@ -3,6 +3,7 @@
 .slick-initialized
 {
    height: 600px !important;
+   margin-top: 5%;
 }
 .slick-center,
 .slick-current{

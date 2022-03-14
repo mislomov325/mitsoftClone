@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import "../css/online.css"
 // import "../css/sliderOne.css"
 // import "../css/sliderTwo.css"
 // import "~slick-carousel/slick/slick.css";
@@ -10,7 +11,7 @@ export default class Online extends Component {
       className: "center",
       centerMode: true,
       infinite: true,
-      centerPadding: "160px",
+      centerPadding: "60px",
       slidesToShow: 3,
       speed: 500,
     };
