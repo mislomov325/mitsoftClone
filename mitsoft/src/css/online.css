@@ -1,11 +1,91 @@
 /* .slick-slider  */
 /* .center  */
-.slick-initialized
-{
-   height: 600px !important;
-   margin-top: 5%;
+.headerOne .slick-initialized {
+  height: 700px !important;
+  width: 90%;
+  margin: auto;
 }
-.slick-center,
-.slick-current{
-   transform: scale(1.2, 1.2) !important;
+.headerOne .slick-list {
+  height: 800px;
+}
+.headerOne .slick-current {
+  transition: 0.2s;
+  transform: scale(1.1) !important;
+}
+/* .headerOne .slick-center,
+.slick-current {
+  transform: scale(1.2, 1.2) !important;
+} */
+.headerOne .slick-prev {
+  background-color: black !important;
+  border-radius: 50%;
+  transform: scale(2);
+  position: absolute;
+  left: 5%;
+  top: 50%;
+}
+.headerOne .slick-next {
+  background-color: black !important;
+  border-radius: 50%;
+  transform: scale(2);
+  position: absolute;
+  right: 5%;
+  top: 50%;
+}
+.headerOne .card {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px !important;
+}
+.you_tube {
+  width: 100%;
+  height: 480px;
+  border-radius: 20px;
+}
+.card_header {
+  z-index: -1;
+}
+.card_body {
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 460px;
+  z-index: 2;
+  background-color: #353534;
+  color: white;
+  position: absolute;
+  top: 330px;
+  transition: 0.4s;
+}
+.card_body .btnClick {
+  /* display: none; */
+  width: 150px;
+  transform: scale(1.2);
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  z-index: 5;
+  transition: 0.4s;
+}
+.card_body h3 {
+  font-size: 30px;
+}
+.card_body p {
+  font-size: 20px;
+}
+.card_body:hover .btnClick {
+  position: absolute;
+  top: 220px;
+  right: 40px;
+}
+.card_body p {
+  display: none;
+}
+.card_body:hover {
+  position: absolute;
+  top: 200px;
+}
+.card_body:hover p {
+  display: block;
 }

@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import video from "../img/videoTwo.mp4";
+import video from "../img/videoOne.mp4";
 import line from "../img/line.png";
 import "../css/home.css";
 import Kurslar from "./Kurslar";
 import Online from "./Online";
+import Infokurs from "./Infokurs";
+import About from "./About";
+import Footer from "./Footer";
 // import { Button } from "react-bootstrap";
 export default class Home extends Component {
   render() {
@@ -14,6 +17,7 @@ export default class Home extends Component {
         <video className="video" autoPlay controls>
           <source src={video} type="video/mp4" />
         </video>
+        <br />
         <div className="sheetOne">
           <img className="lineLeft" src={line} alt="" />
           <p>Список курсов</p>
@@ -26,10 +30,43 @@ export default class Home extends Component {
           <Kurslar />
         </div>
         <br />
+        <div className="sheetOne">
+          <img className="lineLeft" src={line} alt="" />
+          <p>Список курсов</p>
+          <img className="lineRight" src={line} alt="" />
+        </div>
+        <p className="textOne">
+          ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ КУРС И НАЧНИТЕ СВОЮ КАРЬЕРУ В СФЕРЕ IT
+        </p>
         <div id="onlineKurs">
           <Online />
         </div>
-        <br />
+        {/* <br /> */}
+        <div className="sheetOne">
+          <img className="lineLeft" src={line} alt="" />
+          <p>Список курсов</p>
+          <img className="lineRight" src={line} alt="" />
+        </div>
+        <p className="textOne">
+          ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ КУРС И НАЧНИТЕ СВОЮ КАРЬЕРУ В СФЕРЕ IT
+        </p>
+        <div id="infokurs">
+          <Infokurs />
+        </div>
+        <div className="sheetOne">
+          <img className="lineLeft" src={line} alt="" />
+          <p>Список курсов</p>
+          <img className="lineRight" src={line} alt="" />
+        </div>
+        <p className="textOne">
+          ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ КУРС И НАЧНИТЕ СВОЮ КАРЬЕРУ В СФЕРЕ IT
+        </p>
+        <div id="about">
+          <About />
+        </div>
+        <div id="footer">
+          <Footer />
+        </div>
       </div>
     );
   }

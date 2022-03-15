@@ -1,21 +1,25 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
-.slick-active {
-  transform: scale(1.2);
+.headKurslar .slick-current {
+  transform: scale(1) !important;
 }
-.slick-initialized {
+.headKurslar .slick-initialized {
   width: 90%;
   margin: auto;
 }
-.slick-prev,
-.slick-next {
+.headKurslar .slick-prev {
   background-color: black !important;
   border-radius: 50%;
+  transform: scale(2);
 }
-.slick-list {
-  height: 950px;
+.headKurslar .slick-next {
+  background-color: black !important;
+  border-radius: 50%;
+  transform: scale(2);
 }
-
+.headKurslar .slick-list {
+  height: 600px;
+}
 .card {
   position: absolute;
   top: 300px;
@@ -31,7 +35,6 @@
   -webkit-transition: box-shadow 0.5s;
   transition: box-shadow 0.5s;
 }
-
 .card a {
   color: inherit;
   text-decoration: none;
@@ -40,7 +43,6 @@
   display: none !important;
   transition: 1s;
 }
-
 .card:hover {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
 }
@@ -50,10 +52,6 @@
   margin-bottom: 20px;
   display: block !important;
 }
-/**
-* DATE
-**/
-
 .card__date {
   position: absolute;
   top: 20px;

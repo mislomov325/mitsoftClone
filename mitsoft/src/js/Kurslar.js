@@ -8,11 +8,11 @@ export default class Kurslar extends Component {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 4,
     };
     return (
-      <div>
+      <div className="headKurslar">
         <Slider {...settings}>
           <div>
             <div>
