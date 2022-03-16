@@ -7,10 +7,10 @@ export default class About extends Component {
     return (
       <div className="aboutJs">
         <div className="maps">
-          <YMaps>
+          <YMaps  style={{width:"500px", height:"100%"}}>
             <div>
-              <Map
-                defaultState={{ center: [39.398799, 64.772431], zoom: 20 }}
+              <Map 
+                defaultState={{ center: [39.398799, 64.772431], zoom: 50 }}
               />
             </div>
           </YMaps>

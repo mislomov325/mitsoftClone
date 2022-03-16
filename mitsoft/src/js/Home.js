@@ -29,6 +29,7 @@ export default class Home extends Component {
           <Kurslar />
         </div>
         <br />
+        <div id="onlineKurs">
         <div className="sheetOne">
           <img className="lineLeft" src={line} alt="" />
           <p>Список курсов</p>
@@ -37,10 +38,10 @@ export default class Home extends Component {
         <p className="textOne">
           ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ КУРС И НАЧНИТЕ СВОЮ КАРЬЕРУ В СФЕРЕ IT
         </p>
-        <div id="onlineKurs">
           <Online />
         </div>
         {/* <br /> */}
+        <div id="news">
         <div className="sheetOne">
           <img className="lineLeft" src={line} alt="" />
           <p>Список курсов</p>
@@ -49,9 +50,10 @@ export default class Home extends Component {
         <p className="textOne">
           ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ КУРС И НАЧНИТЕ СВОЮ КАРЬЕРУ В СФЕРЕ IT
         </p>
-        <div id="news">
           <Infokurs />
         </div>
+        <br/>
+        <div id="about">
         <div className="sheetOne">
           <img className="lineLeft" src={line} alt="" />
           <p>Список курсов</p>
@@ -60,9 +62,9 @@ export default class Home extends Component {
         <p className="textOne">
           ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ КУРС И НАЧНИТЕ СВОЮ КАРЬЕРУ В СФЕРЕ IT
         </p>
-        <div id="about">
           <About />
         </div>
+        <br/>
         <div id="footer">
           <Footer />
         </div>
