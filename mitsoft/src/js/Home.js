@@ -8,7 +8,6 @@ import Online from "./Online";
 import Infokurs from "./Infokurs";
 import About from "./About";
 import Footer from "./Footer";
-// import { Button } from "react-bootstrap";
 export default class Home extends Component {
   render() {
     return (
@@ -50,7 +49,7 @@ export default class Home extends Component {
         <p className="textOne">
           ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ КУРС И НАЧНИТЕ СВОЮ КАРЬЕРУ В СФЕРЕ IT
         </p>
-        <div id="infokurs">
+        <div id="news">
           <Infokurs />
         </div>
         <div className="sheetOne">

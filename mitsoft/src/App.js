@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./js/Home";
 import SingUp from "./js/SingUp";
 import Enter from "./js/Enter";
-import Navbar from "./js/Navbar";
 export default class App extends Component {
   render() {
     return (
@@ -15,9 +14,6 @@ export default class App extends Component {
             <Route element={<SingUp />} exact path="/singup" />
           </Routes>
         </BrowserRouter> */}
-        <Navbar />
-        {/* <Prosta /> */}
-        {/* <Footer /> */}
       </div>
     );
   }

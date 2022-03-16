@@ -1,10 +1,20 @@
 import React, { Component } from "react";
+import { YMaps, Map } from "react-yandex-maps";
+
 import "../css/about.css";
 export default class About extends Component {
   render() {
     return (
       <div className="aboutJs">
-        <div className="maps"></div>
+        <div className="maps">
+          <YMaps>
+            <div>
+              <Map
+                defaultState={{ center: [39.398799, 64.772431], zoom: 20 }}
+              />
+            </div>
+          </YMaps>
+        </div>
         <div className="address">
           <h2 className="infohead">
             Учебный центр расположен внутри моноцентра ишга мархамат
